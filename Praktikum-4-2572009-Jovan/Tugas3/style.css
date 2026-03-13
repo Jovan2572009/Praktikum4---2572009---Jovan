@@ -3,5 +3,52 @@
     color: rgb(209,204, 255);
     background-color: white;
     border-radius: 15px;
-    
+    text-align: center;
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.main {
+    margin: 0;
+    height: 600px;
+}
+
+.header a {
+    background: white;
+    border-radius: 15px;
+    padding: 8px 5px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+
+.detail{
+    background-color: #ada9a9;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.education{
+    margin-top: 20px;
+}
+
+.edu-card{
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.experience {
+    margin-top: 20px;
 }
